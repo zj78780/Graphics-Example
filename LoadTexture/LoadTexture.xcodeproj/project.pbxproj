@@ -1,0 +1,239 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C473E17D151E7CAA00236199 /* main.mm in Sources */ = {isa = PBXBuildFile; fileRef = C473E17C151E7CAA00236199 /* main.mm */; };
+		C49479F5151E162C0012276F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C49479F4151E162C0012276F /* Foundation.framework */; };
+		C4947A08151E1F6A0012276F /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4947A07151E1F6A0012276F /* OpenGL.framework */; };
+		C4947A0A151E1F720012276F /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4947A09151E1F720012276F /* GLUT.framework */; };
+		C4947A0C151E20DC0012276F /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4947A0B151E20DC0012276F /* AppKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C49479EE151E162C0012276F /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		AB74ADF21EAD677000E8E9CF /* resources */ = {isa = PBXFileReference; lastKnownFileType = folder; path = resources; sourceTree = "<group>"; };
+		AB74ADF61EAD69BE00E8E9CF /* GL */ = {isa = PBXFileReference; lastKnownFileType = folder; path = GL; sourceTree = SOURCE_ROOT; };
+		AB74ADF71EAD69BE00E8E9CF /* math */ = {isa = PBXFileReference; lastKnownFileType = folder; path = math; sourceTree = SOURCE_ROOT; };
+		AB74ADF81EAD69BE00E8E9CF /* model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = model.h; sourceTree = SOURCE_ROOT; };
+		C473E17C151E7CAA00236199 /* main.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = main.mm; sourceTree = SOURCE_ROOT; };
+		C49479F0151E162C0012276F /* LoadTexture */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LoadTexture; sourceTree = BUILT_PRODUCTS_DIR; };
+		C49479F4151E162C0012276F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C4947A07151E1F6A0012276F /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		C4947A09151E1F720012276F /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = System/Library/Frameworks/GLUT.framework; sourceTree = SDKROOT; };
+		C4947A0B151E20DC0012276F /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C49479ED151E162C0012276F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4947A0C151E20DC0012276F /* AppKit.framework in Frameworks */,
+				C4947A0A151E1F720012276F /* GLUT.framework in Frameworks */,
+				C4947A08151E1F6A0012276F /* OpenGL.framework in Frameworks */,
+				C49479F5151E162C0012276F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C49479E5151E162C0012276F = {
+			isa = PBXGroup;
+			children = (
+				C473E17C151E7CAA00236199 /* main.mm */,
+				AB74ADF61EAD69BE00E8E9CF /* GL */,
+				AB74ADF71EAD69BE00E8E9CF /* math */,
+				AB74ADF81EAD69BE00E8E9CF /* model.h */,
+				C49479F3151E162C0012276F /* Frameworks */,
+				C49479F1151E162C0012276F /* Products */,
+				AB74ADF21EAD677000E8E9CF /* resources */,
+			);
+			sourceTree = "<group>";
+		};
+		C49479F1151E162C0012276F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C49479F0151E162C0012276F /* LoadTexture */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C49479F3151E162C0012276F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C4947A07151E1F6A0012276F /* OpenGL.framework */,
+				C4947A09151E1F720012276F /* GLUT.framework */,
+				C49479F4151E162C0012276F /* Foundation.framework */,
+				C4947A0B151E20DC0012276F /* AppKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C49479EF151E162C0012276F /* LoadTexture */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C49479FF151E162C0012276F /* Build configuration list for PBXNativeTarget "LoadTexture" */;
+			buildPhases = (
+				C49479EC151E162C0012276F /* Sources */,
+				C49479ED151E162C0012276F /* Frameworks */,
+				C49479EE151E162C0012276F /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LoadTexture;
+			productName = NavGame;
+			productReference = C49479F0151E162C0012276F /* LoadTexture */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C49479E7151E162C0012276F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = C49479EA151E162C0012276F /* Build configuration list for PBXProject "LoadTexture" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C49479E5151E162C0012276F;
+			productRefGroup = C49479F1151E162C0012276F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C49479EF151E162C0012276F /* LoadTexture */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C49479EC151E162C0012276F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C473E17D151E7CAA00236199 /* main.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C49479FD151E162C0012276F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		C49479FE151E162C0012276F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		C4947A00151E162C0012276F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "";
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/";
+				PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR = NO;
+				PRODUCT_NAME = LoadTexture;
+			};
+			name = Debug;
+		};
+		C4947A01151E162C0012276F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "";
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/";
+				PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR = NO;
+				PRODUCT_NAME = LoadTexture;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C49479EA151E162C0012276F /* Build configuration list for PBXProject "LoadTexture" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C49479FD151E162C0012276F /* Debug */,
+				C49479FE151E162C0012276F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C49479FF151E162C0012276F /* Build configuration list for PBXNativeTarget "LoadTexture" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4947A00151E162C0012276F /* Debug */,
+				C4947A01151E162C0012276F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C49479E7151E162C0012276F /* Project object */;
+}
